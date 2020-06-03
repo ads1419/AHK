@@ -10,6 +10,7 @@
     send, ^c
     run, wt.exe
     WinWaitActive, ahk_class CASCADIA_HOSTING_WINDOW_CLASS
+    Sleep, 3000 
     send, cd " 
     send, ^v
     send, "{enter}
